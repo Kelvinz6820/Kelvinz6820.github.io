@@ -1,0 +1,155 @@
+
+section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+#introHeader {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    line-height: 3;
+}
+#introQuestion {
+    margin: -150px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.introButtons {
+    margin: 200px;
+    text-align: center;    
+}
+#aboutMe #projects #resume #contactMe {
+    border: solid;
+}
+#aboutMeHeader {
+    color: cyan;
+    font-size: 100px;
+    text-align: center;
+    line-height: 7;
+}
+
+
+#profile-pic {
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    margin: -350px;
+    margin-left: 100px;
+}
+
+.aboutDetails {
+    position: absolute;
+    margin: -375px;
+    margin-left: 700px;
+    width: 600px; 
+    height: 200px;
+    color: cyan;
+    font-size: 20px;
+}
+
+#aboutQuestions{
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 300px;
+}
+#aboutMeList {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 670px;
+    color: cyan;
+}
+#more-info{
+    color:cyan;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+#about-buttons{
+    margin-left: 200px;
+}
+#project-header {
+    font-size: 60px;
+    margin-left: 30px;
+    color:cyan;
+}
+#snowman-pic {
+    margin-left: 30px;
+}
+#snowman-header {
+    margin-left: 800px;
+    margin-top: -500px;
+    font-size: 40px;
+    color: cyan;
+
+}
+#snowman-detail {
+    font-size: 30px;
+    color: cyan;
+    width: 600px;
+    height: 400px;
+    margin-left: 800px;
+
+}
+
+#mental-header {
+    margin-left: 800px;
+    margin-top: -500px;
+    font-size: 40px;
+    color: cyan;
+}
+#mental-pic {
+    height: 500px;
+    width: auto;
+    margin-left:30px;
+}
+#mental-details {
+    font-size: 30px;
+    color: cyan;
+    width: 600px;
+    height: 400px;
+    margin-left: 800px;
+}
+#resume-question {
+    color:cyan;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#resume3 {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+#contactme-question{
+    color:cyan;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#contactMe3 {
+    margin-left: 30px;
+}
+#contact-header {
+
+    font-size: 60px;
+    margin-left: 700px;
+    color:cyan;
+}
+#question-box {
+    margin-left: 400px;
+    width: 800px;
+}
+#full-name {
+    margin-left: 400px;
+    margin-top: 0px;
+    width: 300px;
+}
+#affliation {
+    width:490px;
+}
