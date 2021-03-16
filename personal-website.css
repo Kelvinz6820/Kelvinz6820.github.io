@@ -1,9 +1,11 @@
 
-section {
+.background {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
+
+
 
 #introHeader {
     color: white;
@@ -20,10 +22,13 @@ section {
 
 .introButtons {
     margin: 200px;
-    text-align: center;    
+    text-align: center; 
 }
-#aboutMe #projects #resume #contactMe {
+.page-button-1 {
     border: solid;
+    background-color: cyan;
+    font-size: 70px;
+
 }
 #aboutMeHeader {
     color: cyan;

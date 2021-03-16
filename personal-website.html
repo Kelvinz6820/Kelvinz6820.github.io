@@ -6,28 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="personal-website.css">
-    <section style="background-image:url('http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg')">
+    <section class="background" style="background-image:url('http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg')">
     <script src="personal-website.js" defer></script>
 </head>
 <body>
-    <section>
+    <section class="page1">
         <h1 class="intro" id="introHeader">Welcome to my World</h1>
         <h1 class="intro" id="introQuestion">What would you like to view?</h1>
         <div class="introButtons">
-            <button type="submit" class="about" id="aboutMe">About Me</button>
-            <button type="submit" class="projects" id="projects">Projects</button>
-            <button type="submit" class="resume" id="resume">Resume</button>
-            <button type="submit" class="contact" id="contactMe">Contact me</button>
+            <button type="submit" class="page-button-1" id="aboutMe">About Me</button>
+            <button type="submit" class="page-button-1" id="projects">Projects</button>
+            <button type="submit" class="page-button-1" id="resume">Resume</button>
+            <button type="submit" class="page-button-1" id="contactMe">Contact me</button>
         </div>
-    </section>
+    </section class="page2">
     <section id="aboutMeSection">
         <h1 class="aboutMePage" id="aboutMeHeader">About me</h1>
         <img id="profile-pic" src="https://i.ibb.co/2vBJNtp/IMG-1239-2.jpg" alt="IMG-1239-2" border="0">
         <div class="aboutDetails">
             <p>Hi! I'm Kelvin, I'm a proud member of the Asian community in Queens, NY. I grew up loving anime and video games. I would always go to my friends house smash it to Smash Bros. That love for games grew. In college, me and my friends started playing League of Legends, and we always dreamed of working for a gaming company like theirs. I always wanted to create new characters and designs for my own game.</p>
-
-            <p>It wasn't until my freshman year computer science class that I learned about python and the unlimited possibilities within the tech industry. I continued to develop my interest in computer science by developing a real-world simulator of competition with-in the automobile industry under the leadership of reputable professor Dr. Vuong.</p>
-                
+            <p>It wasn't until my freshman year computer science class that I learned about python and the unlimited possibilities within the tech industry. I continued to develop my interest in computer science by developing a real-world simulator of competition with-in the automobile industry under the leadership of reputable professor Dr. Vuong.</p>    
             <p>However, I decided to go with the more safer route and became a chemical engineer. I was not satisfied. Luckily Pursuit gave me the opportunity to chase after my passion. I am glad to improve our society thought the development in tech companies through one code at a time.</p>
         </div>
         
@@ -39,12 +37,12 @@
         </ul>
         <h2 id="more-info">What else would you like to know?</h2>
         <div id="about-buttons">
-            <button type="submit" class="projects" id="projects2">Projects</button>
-            <button type="submit" class="resume" id="resume2">Resume</button>
-            <button type="submit" class="contact" id="contactMe2">Contact me</button>
+            <button type="submit" class="page-button-2" id="projects2">Projects</button>
+            <button type="submit" class="page-button-2" id="resume2">Resume</button>
+            <button type="submit" class="page-button-2" id="contactMe2">Contact me</button>
         </div>
     </section>
-    <section>
+    <section class="page3">
         <h1 id="project-header">Projects</h1>
         <img id="snowman-pic" src="https://www.hanginghyena.com/static/branding/art/Snowman-1.jpg" alt="snowman.js">
         <h3 id="snowman-header">The Snowman Game</h3>
@@ -59,7 +57,7 @@
         <button type="submit" class="contact" id="contactMe3">Contact me</button>
 
     </section>
-    <section>
+    <section class="page4">
         <h1 id="contact-header">Contact Me</h1>
         <form>
             <textarea id="question-box" type="text" placeholder="Please type your questions or inquries here"></textarea>

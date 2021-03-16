@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let aboutButton = document.querySelector(".about")
+    let aboutButton = document.querySelector("#aboutMe")
     aboutButton.addEventListener("click", () => {
         let aboutMeSection = document.querySelector(".aboutMePage")
         aboutMeSection.scrollIntoView({
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     })
 
-    let projectsButton = document.querySelector(".projects")
+    let projectsButton = document.querySelector("#projects")
     projectsButton.addEventListener("click", () => {
         let projectSection = document.querySelector("#project-header")
         projectSection.scrollIntoView({
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     
-    let contactButton = document.querySelector(".contact")
+    let contactButton = document.querySelector("#contactMe")
     contactButton.addEventListener("click", () => {
         let contactSection = document.querySelector("#contact-header")
         contactSection.scrollIntoView({
@@ -58,5 +58,13 @@ document.addEventListener("DOMContentLoaded", () => {
             block: "start",
             inline: "nearest",
         });
-    })    
+    })
+    let resumeButton = document.querySelector("#resume") 
+    resumeButton.addEventListener("click", () => {
+        location.href="https://docs.google.com/document/d/1dGSj0byaF3ISv796WB9LZ0KyhpX0hhTjVz1unVEgXJo/edit?usp=sharing"
+    })
+    let resumeButton1 = document.querySelector("#resume") 
+    resumeButton1.addEventListener("click", () => {
+        location.href="https://docs.google.com/document/d/1dGSj0byaF3ISv796WB9LZ0KyhpX0hhTjVz1unVEgXJo/edit?usp=sharing"
+    })
 })

@@ -62,8 +62,8 @@ For past projects, we gave you a board that already had cards on it. This time, 
 
 You may also want to create cards for other project milestones and criteria. For example:
 
-- Create design mockup
-- Do user testing
+- Create design mockup -done
+- Do user testing -done
 - Create grid layout
 - Create navigation UI
 - Choose accessible fonts and colors
