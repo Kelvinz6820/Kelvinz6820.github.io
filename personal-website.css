@@ -1,18 +1,22 @@
 body { 
-    background: url(http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg) no-repeat center center fixed; 
+    background: linear-gradient(
+        to left bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(64, 219, 197, 0.66)
+      ),
+      url(http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg) no-repeat center center fixed;
+    /*background: url(http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: absolute;
     margin-top: -195px;
-  }
-
+}
 .page1 {
     position: relative;
-    margin-top: 1000;
+    margin-top: 50px;
 }
-
 #introHeader {
     position: absolute;
     color: white;
@@ -33,29 +37,47 @@ body {
 
 .introButtons {
     position: absolute;
-    margin: 200px;
-    text-align: center; 
+    margin-left: 200px;
     margin-top: 600px;
+    text-align: center;
 }
 .page-button-1 {
-    border: solid;
+    border: black solid;
     background-color: cyan;
     font-size: 70px;
 
+    
+
+}
+#resume {
+    margin-top: 610px;
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
 }
 .page2 {
-    margin-top: 1600px;
+    margin-top: 1550px;
     position: relative;
 }
 .aboutMePage {
     position: absolute;
-    color: cyan;
+    color: white;
     font-size: 60px;
     text-align: center;
     margin-top: -400px;
     margin-left: 50px;
 }
-
+.aboutMeName {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 700px;
+}
 
 #profile-pic {
     position: absolute;
@@ -71,13 +93,13 @@ body {
     margin-left: 700px;
     width: 800px; 
     height: 200px;
-    color: cyan;
+    color: hsla(66, 46%, 67%, 0.902);
     font-size: 23px;
 }
 
 #aboutQuestions{
     position: absolute;
-    color: cyan;
+    color: white;
     font-size: 30px;
     text-align: center;
     margin-top: 150px;
@@ -88,32 +110,90 @@ body {
     font-size: 20px;
     margin-top: 200px;
     margin-left: 680px;
-    color: cyan;
+    color: white;
 }
 #more-info{
     position: absolute;
-    color:cyan;
+    color:white;
     font-size: 30px;
     margin-top: 150px;
     margin-left: 30px;
 }
 #about-buttons{
     position: absolute;
-    margin-left: 140px;
+    margin-left: 65px;
     margin-top: 200px;
+}
+
+.page-button-2 {
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
+}
+#resume2 {
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+#html {
+    position: absolute;
+    width: auto;
+    height: 130px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+#css {
+    position: absolute;
+    width: auto;
+    height: 160px;
+    margin-top: 270px;
+    margin-left: 300px;
+}
+#js {
+    position: absolute;
+    width: auto;
+    height: 160px;
+    margin-top: 270px;
+    margin-left: 590px;
+}
+#react {
+    position: absolute;
+    width: auto;
+    height: 130px;
+    margin-top: 300px;
+    margin-left: 880px;
+}
+
+#git {
+    position: absolute;
+    width: auto;
+    height: 130px;
+    margin-top: 300px;
+    margin-left: 1170px;
+}
+#postgres {
+    position: absolute;
+    width: auto;
+    height: 130px;
+    margin-top: 300px;
+    margin-left: 1430px;
 }
 .page3 {
     position: relative;
-    margin-top: 2500px;
+    margin-top: 2200px;
 
 }
+
 
 #project-header {
     position:absolute;
     font-size: 60px;
     margin-left: 30px;
     margin-top: -120px;
-    color:cyan;
+    color:white;
 }
 #snowman-pic {
     position: absolute;
@@ -124,26 +204,39 @@ body {
     margin-left: 800px;
     margin-top: 0px;
     font-size: 40px;
-    color: cyan;
+    color: white;
 
 }
 #snowman-detail {
     position: absolute;
     font-size: 30px;
-    color: cyan;
+    color: white;
     width: 600px;
     height: 400px;
     margin-left: 800px;
     margin-top: 100px;
 
 }
+#snowman-button {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 430px;
+    border: solid;
+    background-color: cyan;
+    font-size: 50px;
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
 
+}
 #mental-header {
     position: absolute;
     margin-left: 800px;
     margin-top: 600px;
     font-size: 40px;
-    color: cyan;
+    color: white;
 }
 #mental-pic {
     position: absolute;
@@ -155,52 +248,185 @@ body {
 #mental-details {
     position: absolute;
     font-size: 30px;
-    color: cyan;
+    color: white;
     width: 600px;
     height: 400px;
     margin-left: 800px;
     margin-top: 700px;
 }
+#mental-button {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 1070px;
+    border: solid;
+    background-color: cyan;
+    font-size: 50px;
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 #resume-question {
     position: absolute;
-    color:cyan;
+    color:white;
     font-size: 30px;
     margin-top: 1200px;
     margin-left: 30px;
 }
 #resume3 {
     position: absolute;
-    margin-left: 30px;
+    margin-left: 280px;
     margin-top: 1250px;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
 }
 #contactme-question{
     position: absolute;
-    color:cyan;
+    color:white;
     font-size: 30px;
     margin-top: 1200px;
     margin-left: 800px;
 }
 #contactMe3 {
     position: absolute;
-    margin-left: 800px;
+    margin-left: 1080px;
     margin-top: 1250px;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
 
+}
+.page4 {
+    position: relative;
+    margin-top: 3600px;
 }
 #contact-header {
-
+    position: absolute;
     font-size: 60px;
     margin-left: 700px;
-    color:cyan;
+    color:white;
+}
+#profile-pic2 {
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    margin-left: 650px;
+    margin-top: 200px;
+
+}
+#email {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 630px;
+    border: solid;
+    text-decoration: none;
+    background-color: cyan;
+    font-size: 25px;
+
+}
+#linkedin{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 680px;
+    width: 150px;
+    height: auto;
+    
+}
+
+#github{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 690px;
+    height: 110px;
+    width: auto;
+}
+#twitter{
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 670px;
+    height: 160px;
+    width: auto;
+}
+#linkedin-button {
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 810px;
+    width: 110px;
+    height: auto;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    text-align: center;
+}
+#github-button {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 810px;
+    width: 110px;
+    height: auto;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    text-align: center;
+}
+#twitter-button {
+    position: absolute;
+    margin-left: 935px;
+    margin-top: 810px;
+    width: 110px;
+    height: auto;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    text-align: center;
 }
 #question-box {
-    margin-left: 400px;
-    width: 800px;
+    position: inherit;
+    margin-left: 650px;
+    margin-top: 850px;
+    width: 400px;
+    height: 70px;
 }
 #full-name {
-    margin-left: 400px;
+    position: inherit;
+    margin-left: 650px;
     margin-top: 0px;
-    width: 300px;
+    width: 400px;
 }
 #affliation {
-    width:490px;
+    position: inherit;
+    margin-left: 650px;
+    margin-top: 2px;
+    width:400px;
+}
+#contact-submit-button {
+    position: inherit;
+    margin-left: 760px;
+    margin-top: 2px;
+    width:200px;
+    border: solid;
+    background-color: cyan;
+    font-size: 25px;
 }

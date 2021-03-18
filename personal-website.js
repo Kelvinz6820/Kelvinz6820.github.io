@@ -59,12 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             inline: "nearest",
         });
     })
-    let resumeButton = document.querySelector("#resume") 
-    resumeButton.addEventListener("click", () => {
-        location.href="https://docs.google.com/document/d/1dGSj0byaF3ISv796WB9LZ0KyhpX0hhTjVz1unVEgXJo/edit?usp=sharing"
-    })
-    let resumeButton1 = document.querySelector("#resume") 
-    resumeButton1.addEventListener("click", () => {
-        location.href="https://docs.google.com/document/d/1dGSj0byaF3ISv796WB9LZ0KyhpX0hhTjVz1unVEgXJo/edit?usp=sharing"
-    })
+
+
+
 })
