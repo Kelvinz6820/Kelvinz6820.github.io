@@ -1,10 +1,9 @@
 body { 
     background: linear-gradient(
-        to left bottom,
-        rgba(255, 255, 255, 0.6),
-        rgba(64, 219, 197, 0.66)
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 1)
       ),
-      url(Queens.jpeg) no-repeat center center fixed;
+      url(queens-sunset.jpeg) no-repeat center center fixed;
     /*background: url(http://newyorkpaydayloansolutions.com/wp-content/uploads/2015/04/Queens-NY.jpg) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -43,20 +42,34 @@ body {
 }
 .page-button-1 {
     border: black solid;
-    background-color: cyan;
+    background-color: rgb(135, 46, 161);
+    color:#ceccbd;
     font-size: 70px;
-
-    
-
 }
 #resume {
     margin-top: 610px;
-    color:black;
+    color:#ceccbd;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
 
+}
+ .fun {
+     position: absolute;
+     border: black solid;
+     background-color: rgb(135, 46, 161);
+     font-size: 40px;
+     margin-top: 800px;
+     margin-left: 200px;
+     color: #ceccbd;
+ }
+.fact-statement {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-top: 800px;
+    margin-left: 400px;
 }
 .page2 {
     margin-top: 1550px;
@@ -93,13 +106,13 @@ body {
     margin-left: 700px;
     width: 800px; 
     height: 200px;
-    color: hsla(66, 46%, 67%, 0.902);
+    color: #ceccbd;
     font-size: 23px;
 }
 
 #aboutQuestions{
     position: absolute;
-    color: white;
+    color: #ceccbd;
     font-size: 30px;
     text-align: center;
     margin-top: 150px;
@@ -110,7 +123,7 @@ body {
     font-size: 20px;
     margin-top: 200px;
     margin-left: 680px;
-    color: white;
+    color: #ceccbd;
 }
 #more-info{
     position: absolute;
@@ -210,7 +223,7 @@ body {
 #snowman-detail {
     position: absolute;
     font-size: 30px;
-    color: white;
+    color: #ceccbd;
     width: 600px;
     height: 400px;
     margin-left: 800px;
@@ -221,10 +234,10 @@ body {
     position: absolute;
     margin-left: 1000px;
     margin-top: 430px;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 50px;
-    color:black;
+    color:#ceccbd;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
@@ -240,15 +253,14 @@ body {
 }
 #mental-pic {
     position: absolute;
-    width: 600px;
-    height: auto; 
+
     margin-left:30px;
-    margin-top: 600px;
+    margin-top: 610px;
 }
 #mental-details {
     position: absolute;
     font-size: 30px;
-    color: white;
+    color: #ceccbd;
     width: 600px;
     height: 400px;
     margin-left: 800px;
@@ -258,10 +270,10 @@ body {
     position: absolute;
     margin-left: 1000px;
     margin-top: 1070px;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 50px;
-    color:black;
+    color:#ceccbd;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
@@ -278,14 +290,14 @@ body {
     position: absolute;
     margin-left: 280px;
     margin-top: 1250px;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 25px;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: black;
+    color: #ceccbd;
 }
 #contactme-question{
     position: absolute;
@@ -298,8 +310,9 @@ body {
     position: absolute;
     margin-left: 1080px;
     margin-top: 1250px;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
+    color: #ceccbd;
     font-size: 25px;
 
 }
@@ -325,10 +338,11 @@ body {
     position: absolute;
     margin-left: 710px;
     margin-top: 630px;
-    border: solid;
+    border: black solid;
     text-decoration: none;
-    background-color: cyan;
+    background-color: rgb(135, 46, 161);
     font-size: 25px;
+    color: #ceccbd;
 
 }
 #linkedin{
@@ -360,14 +374,14 @@ body {
     margin-top: 810px;
     width: 110px;
     height: auto;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 25px;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: black;
+    color: #ceccbd;
     text-align: center;
 }
 #github-button {
@@ -376,14 +390,14 @@ body {
     margin-top: 810px;
     width: 110px;
     height: auto;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 25px;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: black;
+    color: #ceccbd;
     text-align: center;
 }
 #twitter-button {
@@ -392,14 +406,14 @@ body {
     margin-top: 810px;
     width: 110px;
     height: auto;
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
     font-size: 25px;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: black;
+    color: #ceccbd;
     text-align: center;
 }
 #question-box {
@@ -408,20 +422,24 @@ body {
     margin-top: 850px;
     width: 400px;
     height: 70px;
+    visibility: hidden;
 }
 #full-name {
+    display: none;
     position: inherit;
     margin-left: 650px;
     margin-top: 0px;
     width: 400px;
 }
 #affliation {
+    display: none;
     position: inherit;
     margin-left: 650px;
     margin-top: 2px;
     width:400px;
 }
 #contact-submit-button {
+    visibility: hidden;
     position: inherit;
     margin-left: 760px;
     margin-top: 2px;

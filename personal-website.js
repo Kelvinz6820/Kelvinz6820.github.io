@@ -60,6 +60,28 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     })
 
-
+    const funFactBtn = document.querySelector(".fun");
+    funFactBtn.addEventListener("click", (event) => {
+      event.preventDefault();
+      const randomFactP = document.querySelector(".fact-statement");
+      factArray = [
+        ": I use to do k-pop choreography",
+        ": I use to go to nature trails and take photos of animals",
+        ": I traveled the whole Bayside area just to try every restaurant",
+        ": I've explored multiple abandoned areas in NYC",
+        ": I've done cosplay for an anime convention",
+        ": I've won 5 plushies in disneyland",
+        ": I've made my own ice cream",
+        ": I've done kickboxing and Jeet Kune Do",
+      ];
+      let randomFact = "";
+      for (let i = 0; i < factArray.length; i++) {
+        min = Math.ceil(0);
+        max = Math.floor(factArray.length - 1);
+        let randomN = Math.floor(Math.random() * (max - min + 1) + min);
+        randomFact = factArray[randomN];
+      }
+      randomFactP.textContent = randomFact;
+    });
 
 })
