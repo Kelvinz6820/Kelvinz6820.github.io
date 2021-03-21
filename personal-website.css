@@ -10,34 +10,30 @@ body {
     -o-background-size: cover;
     background-size: cover;
     position: absolute;
-    margin-top: -195px;
+
 }
 .page1 {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 #introHeader {
-    position: absolute;
+    margin-top: 0px;
     color: white;
     font-size: 100px;
     text-align: center;
     line-height: 3;
-    margin-left: 350px;
-    margin-top: 200px;
+
 }
-#introQuestion {
-    position: absolute;
-    margin-top: 450px;
-    margin-left: 480px;
+#introQuestion {margin-top: -100px;
     color: white;
     font-size: 50px;
-    text-align: center;
 }
 
 .introButtons {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 600px;
     text-align: center;
 }
 .page-button-1 {
@@ -47,7 +43,7 @@ body {
     font-size: 70px;
 }
 #resume {
-    margin-top: 610px;
+    margin-top: 0px;
     color:#ceccbd;
     text-decoration: none;
     font-family: Arial;
@@ -55,96 +51,99 @@ body {
     padding-bottom: 2px;
 
 }
+.fun-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
  .fun {
-     position: absolute;
      border: black solid;
      background-color: rgb(135, 46, 161);
      font-size: 40px;
-     margin-top: 800px;
-     margin-left: 200px;
      color: #ceccbd;
  }
 .fact-statement {
-    position: absolute;
     color: white;
     font-size: 40px;
-    margin-top: 800px;
-    margin-left: 400px;
 }
 .page2 {
-    margin-top: 1550px;
-    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr 5fr 1fr;
+    grid-template-rows: 1fr  3fr  1fr 1fr;
+    align-items: center;
 }
+
 .aboutMePage {
-    position: absolute;
+    grid-row: 1;
+    grid-column: 1 / 5;
     color: white;
     font-size: 60px;
     text-align: center;
-    margin-top: -400px;
-    margin-left: 50px;
-}
-.aboutMeName {
-    position: absolute;
-    color: white;
-    font-size: 60px;
-    text-align: center;
-    margin-top: -400px;
-    margin-left: 700px;
 }
 
 #profile-pic {
-    position: absolute;
-    width: 400px;
-    height: 420px;
-    margin-left: 50px;
-    margin-top: -280px;
+    align-self: flex-start;
+    grid-row: 2;
+    grid-column: 2;
+    width: auto;
+    height: 520px;
 }
 
 .aboutDetails {
-    position: absolute;
-    margin-top: -300px;
-    margin-left: 700px;
-    width: 800px; 
-    height: 200px;
+    align-self: flex-start;
+    grid-row: 2;
+    grid-column: 3 ;
     color: #ceccbd;
     font-size: 23px;
 }
-
+.info {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+.about-questions{
+    grid-row: 3;
+    grid-column: 3 / 5;
+}
 #aboutQuestions{
-    position: absolute;
     color: #ceccbd;
     font-size: 30px;
     text-align: center;
-    margin-top: 150px;
-    margin-left: 700px;
 }
 #aboutMeList {
-    position: absolute;
+    grid-row: 4;
+    grid-column: 3 / 5;
     font-size: 20px;
-    margin-top: 200px;
-    margin-left: 680px;
     color: #ceccbd;
 }
 #more-info{
-    position: absolute;
+    grid-row: 3;
+    grid-column: 2;
     color:white;
     font-size: 30px;
-    margin-top: 150px;
-    margin-left: 30px;
 }
 #about-buttons{
-    position: absolute;
-    margin-left: 65px;
-    margin-top: 200px;
+    grid-row: 4;
+    grid-column: 2;
 }
+.skill-view {
+    grid-row: 4;
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 
+}
 .page-button-2 {
-    border: solid;
-    background-color: cyan;
+    border: black solid;
+    background-color: rgb(135, 46, 161);
+    color: white;
     font-size: 25px;
 }
 #resume2 {
-    color:black;
+    color:white;
     text-decoration: none;
     font-family: Arial;
     padding-top: 2px;
@@ -152,88 +151,80 @@ body {
 
 }
 #html {
-    position: absolute;
+    padding-top: 30px;
     width: auto;
     height: 130px;
-    margin-top: 300px;
-    margin-left: 50px;
 }
 #css {
-    position: absolute;
+
     width: auto;
     height: 160px;
-    margin-top: 270px;
-    margin-left: 300px;
 }
 #js {
-    position: absolute;
     width: auto;
     height: 160px;
-    margin-top: 270px;
-    margin-left: 590px;
 }
 #react {
-    position: absolute;
+    padding-top: 30px;
     width: auto;
     height: 130px;
-    margin-top: 300px;
-    margin-left: 880px;
 }
 
 #git {
-    position: absolute;
+    padding-top: 30px;
     width: auto;
     height: 130px;
-    margin-top: 300px;
-    margin-left: 1170px;
 }
 #postgres {
-    position: absolute;
+    padding-top: 30px;
     width: auto;
     height: 130px;
-    margin-top: 300px;
-    margin-left: 1430px;
 }
 .page3 {
-    position: relative;
-    margin-top: 2200px;
+    margin-top: 250px;
+    margin-left: 30px;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-rows: 1fr  2fr  2fr 1fr ;
+    align-items: center;
 
 }
 
 
 #project-header {
-    position:absolute;
     font-size: 60px;
-    margin-left: 30px;
-    margin-top: -120px;
     color:white;
+    grid-column: 1 / 5;
+    grid-row: 1;
+    text-align: center;
 }
 #snowman-pic {
-    position: absolute;
-    margin-left: 30px;
+    align-self: flex-start;
+    grid-column: 2;
+    grid-row: 2;
+}
+.snowman-info{
+    margin-top: -50px;
+    align-self: flex-start;
+    grid-column: 3 /5;
+    grid-row: 2;
 }
 #snowman-header {
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 0px;
     font-size: 40px;
     color: white;
 
 }
 #snowman-detail {
-    position: absolute;
     font-size: 30px;
     color: #ceccbd;
-    width: 600px;
-    height: 400px;
-    margin-left: 800px;
-    margin-top: 100px;
+    grid-column: 2;
+    grid-row: 3;
 
 }
+
 #snowman-button {
-    position: absolute;
-    margin-left: 1000px;
-    margin-top: 430px;
     border: black solid;
     background-color: rgb(135, 46, 161);
     font-size: 50px;
@@ -245,31 +236,25 @@ body {
 
 }
 #mental-header {
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 600px;
     font-size: 40px;
     color: white;
 }
 #mental-pic {
-    position: absolute;
-
-    margin-left:30px;
-    margin-top: 610px;
+    align-self: flex-start;
+    grid-column: 2;
+    grid-row: 3;
+}
+.mental-info{
+    margin-top: -50px;
+    align-self: flex-start;
+    grid-column: 3 /5;
+    grid-row: 3;
 }
 #mental-details {
-    position: absolute;
     font-size: 30px;
     color: #ceccbd;
-    width: 600px;
-    height: 400px;
-    margin-left: 800px;
-    margin-top: 700px;
 }
 #mental-button {
-    position: absolute;
-    margin-left: 1000px;
-    margin-top: 1070px;
     border: black solid;
     background-color: rgb(135, 46, 161);
     font-size: 50px;
@@ -279,17 +264,17 @@ body {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.resume-info {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4
+}
 #resume-question {
-    position: absolute;
     color:white;
     font-size: 30px;
-    margin-top: 1200px;
-    margin-left: 30px;
 }
 #resume3 {
-    position: absolute;
-    margin-left: 280px;
-    margin-top: 1250px;
+
     border: black solid;
     background-color: rgb(135, 46, 161);
     font-size: 25px;
@@ -299,17 +284,17 @@ body {
     padding-bottom: 2px;
     color: #ceccbd;
 }
+.contact-info {
+    text-align: center;
+    grid-column: 3 /5;
+    grid-row: 4;
+}
 #contactme-question{
-    position: absolute;
     color:white;
     font-size: 30px;
-    margin-top: 1200px;
-    margin-left: 800px;
 }
 #contactMe3 {
-    position: absolute;
-    margin-left: 1080px;
-    margin-top: 1250px;
+
     border: black solid;
     background-color: rgb(135, 46, 161);
     color: #ceccbd;
@@ -317,27 +302,21 @@ body {
 
 }
 .page4 {
-    position: relative;
-    margin-top: 3600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
 }
 #contact-header {
-    position: absolute;
     font-size: 60px;
-    margin-left: 700px;
     color:white;
 }
 #profile-pic2 {
-    position: absolute;
     width: 400px;
     height: 420px;
-    margin-left: 650px;
-    margin-top: 200px;
 
 }
 #email {
-    position: absolute;
-    margin-left: 710px;
-    margin-top: 630px;
     border: black solid;
     text-decoration: none;
     background-color: rgb(135, 46, 161);
@@ -345,33 +324,41 @@ body {
     color: #ceccbd;
 
 }
+.social-grid {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 160px 160px 160px;
+    align-items: center;
+
+}
+.linkedin-info {
+    grid-column: 1;
+    text-align: center;
+}
+.github-info {
+    grid-column: 2;
+    text-align: center;
+}
+.twitter-info {
+    grid-column: 3;
+    text-align: center;
+}
 #linkedin{
-    position: absolute;
-    margin-left: 650px;
-    margin-top: 680px;
     width: 150px;
     height: auto;
     
 }
 
 #github{
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 690px;
     height: 110px;
     width: auto;
 }
 #twitter{
-    position: absolute;
-    margin-left: 910px;
-    margin-top: 670px;
     height: 160px;
     width: auto;
+    margin-bottom: -30px;
 }
 #linkedin-button {
-    position: absolute;
-    margin-left: 670px;
-    margin-top: 810px;
     width: 110px;
     height: auto;
     border: black solid;
@@ -385,9 +372,7 @@ body {
     text-align: center;
 }
 #github-button {
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 810px;
+
     width: 110px;
     height: auto;
     border: black solid;
@@ -397,13 +382,15 @@ body {
     font-family: Arial;
     padding-top: 2px;
     padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     color: #ceccbd;
     text-align: center;
+    margin-top: 100px;
+
 }
 #twitter-button {
-    position: absolute;
-    margin-left: 935px;
-    margin-top: 810px;
+
     width: 110px;
     height: auto;
     border: black solid;
@@ -416,7 +403,7 @@ body {
     color: #ceccbd;
     text-align: center;
 }
-#question-box {
+/* #question-box {
     position: inherit;
     margin-left: 650px;
     margin-top: 850px;
@@ -447,4 +434,4 @@ body {
     border: solid;
     background-color: cyan;
     font-size: 25px;
-}
+} */
