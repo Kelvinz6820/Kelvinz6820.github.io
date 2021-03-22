@@ -604,3 +604,536 @@ body {
         height: auto;
     }
 }
+@media screen and (max-width: 718px) {
+    #introHeader {
+        font-size: 50px;
+
+    
+    }
+    #introQuestion {
+        font-size: 30px;
+    }
+    
+
+    .page-button-1 {
+
+        font-size: 40px;
+    }
+    #html {
+        padding-top: 30px;
+        width: auto;
+        height: 70px;
+    }
+    #css {
+    
+        width: auto;
+        height: 100px;
+    }
+    #js {
+        width: auto;
+        height: 100px;
+    }
+    #react {
+        padding-top: 30px;
+        width: auto;
+        height: 70px;
+    }
+    
+    #git {
+        padding-top: 30px;
+        width: auto;
+        height: 70px;
+    }
+    #postgres {
+        padding-top: 30px;
+        width: auto;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .fun {
+        font-size: 15px;
+    }
+   .fact-statement {
+       font-size: 15px;
+   }
+}
+@media screen and (max-width: 570px) {
+    .fun {
+        font-size: 15px;
+    }
+   .fact-statement {
+       font-size: 15px;
+   }
+       #introHeader {
+        font-size: 40px;
+
+    
+    }
+    #introQuestion {
+        font-size: 25px;
+    }
+    
+
+    .page-button-1 {
+
+        font-size: 30px;
+    }
+    .aboutMePage {
+        font-size: 50px;
+    }
+    #profile-pic {
+        width:90%;
+        height: auto;
+    }
+    .aboutDetails {
+        width: 90%;
+        font-size: 18px;
+    }
+    #aboutQuestions {
+        font-size: 20px;
+    }
+    #aboutMeList {
+        font-size: 18px;
+    }
+    #more-info {
+        font-size: 20px;
+    }
+    .page-button-2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #html {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #css {
+        padding-top: 18px;
+        width: auto;
+        height: 50px;
+    }
+    #js {
+        padding-top: 18px;
+        width: auto;
+        height: 50px;
+    }
+    #react {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    
+    #git {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #postgres {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #project-header{
+        font-size: 30px;
+    }
+    #snowman-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #snowman-header {
+        font-size: 30px;
+    }
+    #snowman-detail {
+        font-size: 15px;
+    }
+    #mental-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #mental-header {
+        font-size: 30px;
+    }
+    #mental-detail {
+        font-size: 15px;
+    }
+    #resume-question {
+        font-size: 18px;
+    }
+    #contactme-question {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 502px) {
+    .fun {
+        font-size: 15px;
+    }
+   .fact-statement {
+       font-size: 15px;
+   }
+       #introHeader {
+        font-size: 40px;
+
+    
+    }
+    #introQuestion {
+        font-size: 25px;
+    }
+    
+
+    .page-button-1 {
+
+        font-size: 30px;
+    }
+    .aboutMePage {
+        font-size: 50px;
+    }
+    #profile-pic {
+        width:90%;
+        height: auto;
+    }
+    .aboutDetails {
+        width: 90%;
+        font-size: 18px;
+    }
+    #aboutQuestions {
+        font-size: 20px;
+    }
+    #aboutMeList {
+        font-size: 18px;
+    }
+    #more-info {
+        font-size: 20px;
+    }
+    .page-button-2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #html {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #css {
+    
+        width: auto;
+        height: 40px;
+    }
+    #js {
+        padding-top: 0;
+        width: auto;
+        height: 40px;
+    }
+    #react {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    
+    #git {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #postgres {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #project-header{
+        font-size: 30px;
+    }
+    #snowman-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #snowman-header {
+        font-size: 30px;
+    }
+    #snowman-detail {
+        font-size: 15px;
+    }
+    #mental-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #mental-header {
+        font-size: 30px;
+    }
+    #mental-details {
+        font-size: 15px;
+    }
+    #resume-question {
+        font-size: 18px;
+    }
+    #resume3 {
+        font-size: 15px;
+    }
+    #contactme-question {
+        font-size: 18px;
+    }
+    #contactMe3 {
+        font-size: 18px;
+    }
+    #contact-header {
+        font-size: 30px;
+    }
+    #profile-pic2{
+        width: 80%;
+    }
+    #linkedin{
+        width: 100px;
+        height: auto;
+        
+    }
+    
+    #github{
+        height: 70px;
+        width: auto;
+    }
+    #twitter{
+        height: 110px;
+        width: auto;
+        margin-bottom: -15px;
+    }
+}
+@media screen and (max-width: 502px) {
+    .fun {
+        font-size: 15px;
+    }
+   .fact-statement {
+       font-size: 15px;
+   }
+       #introHeader {
+        font-size: 40px;
+
+    
+    }
+    #introQuestion {
+        font-size: 25px;
+    }
+    
+
+    .page-button-1 {
+
+        font-size: 30px;
+    }
+    .aboutMePage {
+        font-size: 50px;
+    }
+    #profile-pic {
+        width:90%;
+        height: auto;
+    }
+    .aboutDetails {
+        width: 90%;
+        font-size: 18px;
+    }
+    #aboutQuestions {
+        font-size: 20px;
+    }
+    #aboutMeList {
+        font-size: 18px;
+    }
+    #more-info {
+        font-size: 20px;
+    }
+    .page-button-2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #html {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #css {
+        padding-top: 18px;
+        width: auto;
+        height: 50px;
+    }
+    #js {
+        padding-top: 18px;
+        width: auto;
+        height: 50px;
+    }
+    #react {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    
+    #git {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #postgres {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #project-header{
+        font-size: 30px;
+    }
+    #snowman-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #snowman-header {
+        font-size: 30px;
+    }
+    #snowman-detail {
+        font-size: 15px;
+    }
+    #mental-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #mental-header {
+        font-size: 30px;
+    }
+    #mental-detail {
+        font-size: 15px;
+    }
+    #resume-question {
+        font-size: 18px;
+    }
+    #contactme-question {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 374px) {
+    .fun {
+        font-size: 10px;
+    }
+   .fact-statement {
+       font-size: 10px;
+   }
+       #introHeader {
+        font-size: 20px;
+
+    
+    }
+    #introQuestion {
+        padding-top: 50px;
+        font-size: 15px;
+    }
+    
+
+    .page-button-1 {
+
+        font-size: 15px;
+    }
+    .aboutMePage {
+        font-size: 20px;
+    }
+    #profile-pic {
+        width:80%;
+        height: auto;
+    }
+    .aboutDetails {
+        width: 90%;
+        font-size: 18px;
+    }
+    #aboutQuestions {
+        font-size: 20px;
+    }
+    #aboutMeList {
+        font-size: 18px;
+    }
+    #more-info {
+        font-size: 20px;
+    }
+    .page-button-2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #html {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #css {
+    
+        width: auto;
+        height: 40px;
+    }
+    #js {
+        padding-top: 0;
+        width: auto;
+        height: 40px;
+    }
+    #react {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    
+    #git {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #postgres {
+        padding-top: 30px;
+        width: auto;
+        height: 40px;
+    }
+    #project-header{
+        font-size: 30px;
+    }
+    #snowman-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #snowman-header {
+        font-size: 30px;
+    }
+    #snowman-detail {
+        font-size: 15px;
+    }
+    #mental-pic{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #mental-header {
+        font-size: 30px;
+    }
+    #mental-details {
+        font-size: 15px;
+    }
+    #resume-question {
+        font-size: 18px;
+    }
+    #resume3 {
+        font-size: 15px;
+    }
+    #contactme-question {
+        font-size: 18px;
+    }
+    #contactMe3 {
+        font-size: 18px;
+    }
+    #contact-header {
+        font-size: 30px;
+    }
+    #profile-pic2{
+        width: 80%;
+    }
+    #linkedin{
+        width: 100px;
+        height: auto;
+        
+    }
+    
+    #github{
+        height: 70px;
+        width: auto;
+    }
+    #twitter{
+        height: 110px;
+        width: auto;
+        margin-bottom: -15px;
+    }
+}
