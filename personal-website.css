@@ -22,14 +22,14 @@ body {
 }
 #introHeader {
     margin-top: 0px;
-    color: white;
+    color: navajowhite;
     font-size: 100px;
     text-align: center;
     line-height: 3;
 
 }
 #introQuestion {margin-top: -100px;
-    color: white;
+    color: navajowhite;
     font-size: 50px;
 }
 
@@ -63,7 +63,7 @@ body {
      color: #ceccbd;
  }
 .fact-statement {
-    color: white;
+    color: navajowhite;
     font-size: 40px;
 }
 .page2 {
@@ -79,7 +79,7 @@ body {
 .aboutMePage {
     grid-row: 1;
     grid-column: 1 / 5;
-    color: white;
+    color: navajowhite;
     font-size: 60px;
     text-align: center;
 }
@@ -96,7 +96,7 @@ body {
     align-self: flex-start;
     grid-row: 2;
     grid-column: 3 ;
-    color: #ceccbd;
+    color: navajowhite;
     font-size: 23px;
 }
 .info {
@@ -109,7 +109,7 @@ body {
     grid-column: 3 / 5;
 }
 #aboutQuestions{
-    color: #ceccbd;
+    color: navajowhite;
     font-size: 30px;
     text-align: center;
 }
@@ -117,12 +117,12 @@ body {
     grid-row: 4;
     grid-column: 3 / 5;
     font-size: 20px;
-    color: #ceccbd;
+    color: navajowhite;
 }
 #more-info{
     grid-row: 3;
     grid-column: 2;
-    color:white;
+    color:navajowhite;
     font-size: 30px;
 }
 #about-buttons{
@@ -195,7 +195,7 @@ body {
 
 #project-header {
     font-size: 60px;
-    color:white;
+    color:navajowhite;
     grid-column: 1 / 5;
     grid-row: 1;
     text-align: center;
@@ -206,6 +206,7 @@ body {
     grid-row: 2;
 }
 .snowman-info{
+    color: navajowhite;
     margin-top: -50px;
     align-self: flex-start;
     grid-column: 3 /5;
@@ -213,12 +214,12 @@ body {
 }
 #snowman-header {
     font-size: 40px;
-    color: white;
+    color: navajowhite;
 
 }
 #snowman-detail {
     font-size: 30px;
-    color: #ceccbd;
+    color: navajowhite;
     grid-column: 2;
     grid-row: 3;
 
@@ -237,7 +238,7 @@ body {
 }
 #mental-header {
     font-size: 40px;
-    color: white;
+    color: navajowhite;
 }
 #mental-pic {
     align-self: flex-start;
@@ -245,6 +246,7 @@ body {
     grid-row: 3;
 }
 .mental-info{
+    color:navajowhite;
     margin-top: -50px;
     align-self: flex-start;
     grid-column: 3 /5;
@@ -252,7 +254,7 @@ body {
 }
 #mental-details {
     font-size: 30px;
-    color: #ceccbd;
+    color: navajowhite;
 }
 #mental-button {
     border: black solid;
@@ -270,7 +272,7 @@ body {
     grid-row: 4
 }
 #resume-question {
-    color:white;
+    color:navajowhite;
     font-size: 30px;
 }
 #resume3 {
@@ -290,7 +292,7 @@ body {
     grid-row: 4;
 }
 #contactme-question{
-    color:white;
+    color:navajowhite;
     font-size: 30px;
 }
 #contactMe3 {
@@ -309,7 +311,7 @@ body {
 }
 #contact-header {
     font-size: 60px;
-    color:white;
+    color:navajowhite;
 }
 #profile-pic2 {
     width: 400px;
