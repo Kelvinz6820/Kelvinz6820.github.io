@@ -186,6 +186,8 @@ body {
     display: grid;
     column-gap: 50px;
     row-gap: 20px;
+/*   Is the last column in this grid layout necessary? (Same for the .page2 grid) 
+    Anything that takes up space in the 3rd col. also uses the 4th col. so they could be combined!  */
     grid-template-columns: 1fr 4fr 4fr 1fr;
     grid-template-rows: 1fr  2fr  2fr 1fr ;
     align-items: center;
@@ -326,6 +328,7 @@ body {
     color: #ceccbd;
 
 }
+/* social-grid is flush with the bottom of the page - add a margin-bottom for some space! */
 .social-grid {
     display: grid;
     column-gap: 10px;
